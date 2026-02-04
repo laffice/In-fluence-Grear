@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+header{
+    width: 1400px;
+    margin: 0 auto;
+
+    margin-top: 87px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+.navbar{
+    list-style: none;
+    gap: 34px;
+}
+
+
+.navbar li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    
+    
+}
+
+.navbar li a:hover{
+    color: #FF5733;
+    transform: scale(2.25);
+    transition: 0.25s;
+}

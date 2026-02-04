@@ -3,11 +3,13 @@
 }
 
 header{
-    width: 1400px;
+    width: 1400px; 
     margin: 0 auto;
 
     margin-top: 87px;
 }
+/* sharede style  */
+
 
 .display-flex{
     display: flex;
@@ -32,6 +34,6 @@ nav{
 
 .navbar li a:hover{
     color: #FF5733;
-    transform: scale(2.25);
+    /* transform: scale(2.25);*/
     transition: 0.25s;
 }

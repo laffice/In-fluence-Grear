@@ -15,6 +15,13 @@ header{
     display: flex;
 }
 
+/* navbar  */
+
+.logo h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
 nav{
     justify-content: space-between;
 }
@@ -36,4 +43,48 @@ nav{
     color: #FF5733;
     /* transform: scale(2.25);*/
     transition: 0.25s;
+}
+
+/* BANNER */
+
+#banner{
+    width: 1400px; 
+    margin: 0 auto;
+    /* margin-top: 48px; */
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: 870px 45px
+}
+.banner-content h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 145px;
+    margin-bottom: 16px;
+}
+
+.banner-content p{
+    font-weight: 600;
+    margin-bottom: 16.1px;
+}
+.banner-content button{
+    padding: 10px 56px 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    font-weight: 600;
+    cursor: pointer;
+}   
+
+button:hover{
+    background-color: #FF5733;
+    transition: 0.25s;
+}
+
+.background{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+.banner-conteiner{
+    gap: 400px;
 }

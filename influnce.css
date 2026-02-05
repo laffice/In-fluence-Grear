@@ -214,4 +214,41 @@ button:hover{
     /* border-radius: 41px; */
     font-weight: 600;
     cursor: pointer;
+    margin-bottom: 200px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    /* margin: 0 auto; */
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+footer p{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+
+footer .bottom{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contact{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    filter: grayscale(80%);
 }

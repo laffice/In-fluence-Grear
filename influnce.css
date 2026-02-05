@@ -88,3 +88,18 @@ button:hover{
 .banner-conteiner{
     gap: 400px;
 }
+
+/* sponsors */
+#sponsors{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.spn-img{
+    justify-content: space-around;
+    padding: 36px 62px; 
+    border-top: 1px solid rgba(128, 128, 128, 0.671);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.568);
+
+}
+
